@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "pink"
-          entrypoint: "/index.js"
-          root: "/"
+          entrypoint: "/src/index.js"
+          root: "/app"
           
           
