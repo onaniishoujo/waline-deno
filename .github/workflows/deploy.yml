@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "pink"
-          entrypoint: "/node_modules/@waline/vercel/vanilla.js"
+          entrypoint: "node_modules/@waline/vercel/vanilla.js"
           root: "/"
           
           
