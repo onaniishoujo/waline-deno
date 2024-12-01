@@ -2,7 +2,7 @@
 // const path = require('node:path');
 
 // const Application = require('thinkjs');
-// const Loader = require('thinkjs/lib/loader');
+// const Loader = require('@thinkjs/lib/loader');
 
 import os from 'node:os';
 import path from 'node:path'
