@@ -7,7 +7,7 @@
 import os from 'node:os';
 import path from 'node:path'
 import Application from 'thinkjs'
-import Loader from 'thinkjs/lib/loader'
+import Loader from '/node_modules/.deno/thinkjs@3.2.15/lib/loader'
 
 module.exports = function (configParams = {}) {
   const { env, ...config } = configParams;
