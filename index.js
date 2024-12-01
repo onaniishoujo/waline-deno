@@ -1,8 +1,13 @@
-const os = require('node:os');
-const path = require('node:path');
+// const os = require('node:os');
+// const path = require('node:path');
 
-const Application = require('thinkjs');
-const Loader = require('thinkjs/lib/loader');
+// const Application = require('thinkjs');
+// const Loader = require('thinkjs/lib/loader');
+
+import os from 'node:os';
+import path from 'node:path'
+import Application from 'thinkjs'
+import Loader from 'thinkjs/lib/loader'
 
 module.exports = function (configParams = {}) {
   const { env, ...config } = configParams;
